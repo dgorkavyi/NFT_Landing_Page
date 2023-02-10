@@ -71,6 +71,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .header__title {
@@ -149,4 +150,10 @@
     border: 2px solid #0d0d0d;
     background: linear-gradient(93.51deg, #9b51e0 3.84%, #3081ed 100.18%);
   }
+}
+
+.header__star {
+  margin: 0 60%;
+  width: 64px;
+  height: 64px;
 }
