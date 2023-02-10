@@ -1,1 +1,21 @@
-@import "fonts";
+@import '../../node_modules/scss-reset/reset';
+@import 'fonts';
+@import 'header';
+
+*,
+*:hover,
+*:after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: #0d0d0d;
+  color: #fff;
+  font-family: Poppins;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
