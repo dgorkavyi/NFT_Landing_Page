@@ -1,0 +1,49 @@
+.feedback__inner {
+  @include gradient-border();
+  color: #fff;
+  border-radius: 20px;
+  display: flex;
+  padding: 26px;
+  gap: 78px;
+}
+
+.feedback__img-background {
+  background: #51c9ff;
+  border-radius: 20px;
+  padding: 52px 18px 0 18px;
+}
+
+.feedback__img {
+  display: block;
+  max-width: 340px;
+  max-height: 324px;
+}
+
+.feedback-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feedback__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.feedback__name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.feedback__job {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.feedback__title {
+  margin-bottom: 82px;
+}

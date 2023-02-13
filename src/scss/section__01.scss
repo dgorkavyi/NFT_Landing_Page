@@ -1,0 +1,71 @@
+.accounts {
+  margin-bottom: 115px;
+}
+.accounts__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.accounts__box {
+  display: flex;
+  justify-content: space-between;
+}
+.accounts__card-white-bg {
+  background: #fff;
+  border-radius: 10px;
+}
+.accounts__card {
+  background-image: url('../img/accounts__card-bg.png');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 52px 25px 52px;
+  border-radius: 10px;
+}
+.accounts__card-border {
+  @include gradient-border();
+}
+.accounts__card-img {
+}
+.accountant__name {
+  border-radius: 10px;
+  margin-bottom: -24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+  height: 25px;
+  padding: 0 10px;
+  background-image: linear-gradient(
+    93.51deg,
+    rgba(#9b51e0, 0.5) 2.84%,
+    rgba(#3081ed, 0.5) 99.18%
+  );
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  bottom: 26px;
+  transform: skew(344deg, 0deg);
+}
+.accountant__name p {
+  line-height: 14px;
+}
+.accountant__exp {
+  margin: 10px 0 5px 0;
+  color: #9b51e0;
+}
+.accountant__bank {
+  color: #9b51e0;
+  margin-bottom: 10px;
+}
+.accounts__btn {
+  @include gradient-border();
+  margin-top: 10px;
+  padding: 15px 27px;
+  color: #fff;
+}
+.accounts__btn-text {
+  font-size: 15px;
+  line-height: 23px;
+}

@@ -1,6 +1,12 @@
 @import '../../node_modules/scss-reset/reset';
 @import 'fonts';
 @import 'header';
+@import 'section__00';
+@import 'section__01';
+@import 'section__02';
+@import 'section__03';
+@import 'section__04';
+@import 'section__05';
 
 *,
 *:hover,
@@ -18,4 +24,24 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.arrow-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 36px;
+  background: linear-gradient(
+    208deg,
+    #9b51e0 21.01%,
+    rgba(48, 129, 237, 0.8) 100%
+  );
+  border-radius: 30px;
+}
+
+.arrow-down__img {
+  width: 15px;
 }

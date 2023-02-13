@@ -1,0 +1,82 @@
+.explore {
+  margin-bottom: 160px;
+}
+.explore__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.explore__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.explore__header .section__title {
+}
+.explore__header-filter {
+  @include gradient-border();
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: capitalize;
+  line-height: 25px;
+  color: #fff;
+  padding: 15px 28px;
+}
+.filter-img {
+  display: inline-block;
+  margin-right: 10px;
+}
+.nft-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nft-item {
+  @include gradient-border();
+  padding: 1px;
+  border-radius: 10px;
+}
+.nft-item__background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  background: #0d0d0d;
+  border-radius: 9px;
+}
+.nft-item__img {
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+.nft-item__btn {
+  color: #fff;
+  text-transform: uppercase;
+  @include gradient-border();
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  padding: 15px 28px;
+}
+.explore__btn-load-more {
+  color: #fff;
+}
+
+.explore__btn-load-more {
+  @include gradient-border();
+  padding: 1px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.explore__btn-load-more-background {
+  background: #0d0d0d;
+  border-radius: 9px;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+}
