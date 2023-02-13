@@ -7,6 +7,7 @@
 @import 'section__03';
 @import 'section__04';
 @import 'section__05';
+@import 'footer';
 
 *,
 *:hover,
@@ -44,4 +45,21 @@ body {
 
 .arrow-down__img {
   width: 15px;
+}
+.second-circle {
+  top: 200vh;
+  left: 10%;
+}
+
+.third-circle {
+  top: 300vh;
+  left: 90%;
+}
+.fourth-circle {
+  top: 400vh;
+  left: 30%;
+}
+.fifth-circle {
+  top: 500vh;
+  left: 0%;
 }
