@@ -9,7 +9,7 @@ footer {
   top: 100px;
 
   @include gradient-border();
-  background: linear-gradient(93.51deg, #3081ed 2.84%, #9b51e0 99.18%);
+  background: linear-gradient(93.51deg, #3081ed 2.84%, $violet 99.18%);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@ footer {
 .footer-bg {
   background: linear-gradient(
     93.51deg,
-    rgba(#9b51e0, 0.2) 2.84%,
+    rgba($violet, 0.2) 2.84%,
     rgba(#3081ed, 0.2) 99.18%
   );
 }

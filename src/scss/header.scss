@@ -34,7 +34,7 @@
 .header__nav-sign-item {
   padding: 15px 28px;
   cursor: pointer;
-  border: 2px solid #0d0d0d;
+  border: 2px solid $dark_bg;
   border-radius: 10px;
   transition: border 0.3s;
   &:hover {
@@ -45,12 +45,12 @@
   }
 
   &_active {
-    background: linear-gradient(93.51deg, #9b51e0 3.84%, #3081ed 100.18%);
+    background: linear-gradient(93.51deg, $violet 3.84%, #3081ed 100.18%);
   }
 }
 
 @mixin gradient-text-blue {
-  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+  background: linear-gradient(93.51deg, $violet 2.84%, #3081ed 99.18%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -64,7 +64,7 @@
   border-image-slice: 1;
   padding-bottom: 10px;
   border-collapse: separate;
-  border-image-source: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+  border-image-source: linear-gradient(93.51deg, $violet 2.84%, #3081ed 99.18%);
 }
 
 .header__box {
@@ -128,7 +128,7 @@
 .buttons-item-container {
   border-radius: 12px;
   padding: 2px;
-  background-image: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+  background-image: linear-gradient(93.51deg, $violet 2.84%, #3081ed 99.18%);
   transition: background-image 0.3s;
 }
 
@@ -136,9 +136,9 @@
   font-size: 16px;
   padding: 15px 28px;
   cursor: pointer;
-  border: 2px solid #0d0d0d;
+  border: 2px solid $dark_bg;
   border-radius: 10px;
-  background: #0d0d0d;
+  background: $dark_bg;
   transition: border 0.3s;
 
   & + & {
@@ -147,8 +147,8 @@
 
   &_active {
     margin-left: 45px;
-    border: 2px solid #0d0d0d;
-    background: linear-gradient(93.51deg, #9b51e0 3.84%, #3081ed 100.18%);
+    border: 2px solid $dark_bg;
+    background: linear-gradient(93.51deg, $violet 3.84%, #3081ed 100.18%);
   }
 }
 

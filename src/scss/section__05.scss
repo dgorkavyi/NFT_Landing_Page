@@ -2,30 +2,38 @@
   margin-bottom: 150px;
 }
 .feedback__inner {
+}
+
+.feedback__slider-item {
   @include gradient-border();
   color: #fff;
   border-radius: 20px;
   display: flex;
   padding: 26px;
-  gap: 78px;
 }
 
 .feedback__img-background {
+  width: 376px;
+  height: 376px;
   background: #51c9ff;
   border-radius: 20px;
-  padding: 52px 18px 0 18px;
+  padding: 0 18px;
+  flex: 0 0 376px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .feedback__img {
   display: block;
-  max-width: 340px;
-  max-height: 324px;
+  max-height: 100%;
 }
 
 .feedback-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 78px;
 }
 
 .feedback__text {

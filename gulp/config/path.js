@@ -16,14 +16,14 @@ export const path = {
   src: {
     images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
     svg: `${srcFolder}/img/**/*.svg`,
-    js: `${srcFolder}/js/app.js`,
+    js: `${srcFolder}/js/**/*.js`,
     scss: `${srcFolder}/scss/style.scss`,
     html: `${srcFolder}/*.html`,
     files: `${srcFolder}/files/**/*.*`,
     svgsprite: `${srcFolder}/svgicons/**/*.svg`,
   },
   watch: {
-    js: `${srcFolder}/js/*.js`,
+    js: `${srcFolder}/js/**/*.js`,
     scss: `${srcFolder}/scss/*.scss`,
     images: `${srcFolder}/img/**/*.{svg,ico,jpg,jpeg,png,gif,webp}`,
     html: `${srcFolder}/**/*.html`,

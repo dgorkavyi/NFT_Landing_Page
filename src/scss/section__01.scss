@@ -40,7 +40,7 @@
   padding: 0 10px;
   background-image: linear-gradient(
     93.51deg,
-    rgba(#9b51e0, 0.5) 2.84%,
+    rgba($violet, 0.5) 2.84%,
     rgba(#3081ed, 0.5) 99.18%
   );
   border-radius: 10px 10px 0 0;
@@ -53,10 +53,10 @@
 }
 .accountant__exp {
   margin: 10px 0 5px 0;
-  color: #9b51e0;
+  color: $violet;
 }
 .accountant__bank {
-  color: #9b51e0;
+  color: $violet;
   margin-bottom: 10px;
 }
 .accounts__btn {

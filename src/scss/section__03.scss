@@ -44,7 +44,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px 30px;
-  background: #0d0d0d;
+  background: $dark_bg;
   border-radius: 9px;
 }
 .nft-item__img {
@@ -72,7 +72,7 @@
 }
 
 .explore__btn-load-more-background {
-  background: #0d0d0d;
+  background: $dark_bg;
   border-radius: 9px;
   padding: 10px 20px;
   color: #fff;

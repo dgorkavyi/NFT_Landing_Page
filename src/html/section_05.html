@@ -6,18 +6,19 @@
       about us
     </h3>
     <div class="feedback__inner">
-      <div class="feedback__img-background">
-        <img src="@img/feedback__00.png" alt="" class="feedback__img" />
-      </div>
-      <div class="feedback-box">
-        <p class="feedback__text">
-          “With the traditional resumes I used to apply for jobs and would get
-          only a few calls. But after creating a video resume, I’ve got 9/10
-          calls. And I love the simplicity of the video creation process being a
-          non techie.”
-        </p>
-        <p class="feedback__name">Linda Jermy</p>
-        <p class="feedback__job">Commerce student</p>
+      <div class="feedback__slider">
+        
+        @@include('feedback_comment.html', {"photo":"@img/feedback__00.png","name" : "Linda Jermy", "job": "Commerce student"})
+        
+        @@include('feedback_comment.html', {"photo":"@img/feedback__01.png","name" : "Bob Bobson", "job": "Financial agent"})
+        
+        @@include('feedback_comment.html', {"photo":"@img/feedback__02.png","name" : "John Johnson", "job": "Financial agent"})
+        
+        @@include('feedback_comment.html', {"photo":"@img/feedback__05.png","name" : "Rob Robertson", "job": "NFT investor"})
+        
+        @@include('feedback_comment.html', {"photo":"@img/feedback__03.png","name" : "Cat", "job": "house lord"})
+        
+        @@include('feedback_comment.html', {"photo":"@img/feedback__04.png","name" : "Dog", "job": "street lord"})
       </div>
     </div>
   </div>

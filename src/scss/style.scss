@@ -1,3 +1,8 @@
+// variables
+$dark_bg: #0d0d0d;
+$violet: #9b51e0;
+$blue: #aaa;
+
 @import '../../node_modules/scss-reset/reset';
 @import 'fonts';
 @import 'header';
@@ -8,6 +13,7 @@
 @import 'section__04';
 @import 'section__05';
 @import 'footer';
+@import 'slider';
 
 *,
 *:hover,
@@ -17,7 +23,7 @@
 }
 
 body {
-  background: #0d0d0d;
+  background: $dark_bg;
   color: #fff;
   font-family: Poppins;
 }
@@ -37,7 +43,7 @@ body {
   width: 36px;
   background: linear-gradient(
     208deg,
-    #9b51e0 21.01%,
+    $violet 21.01%,
     rgba(48, 129, 237, 0.8) 100%
   );
   border-radius: 30px;
