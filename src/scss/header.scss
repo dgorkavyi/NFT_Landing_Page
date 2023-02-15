@@ -3,6 +3,11 @@
   padding-top: 52px;
   width: 100%;
 }
+
+.header__box-bitcoin {
+  max-height: 348px;
+  max-width: 485px;
+}
 .header__inner {
 }
 .header__nav {
@@ -153,7 +158,7 @@
 }
 
 .header__star {
-  margin: 0 60%;
+  margin-left: 60%;
   width: 64px;
   height: 64px;
 }

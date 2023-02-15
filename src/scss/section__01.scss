@@ -28,6 +28,7 @@
   @include gradient-border();
 }
 .accounts__card-img {
+  border-radius: 12px;
 }
 .accountant__name {
   border-radius: 10px;
