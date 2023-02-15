@@ -22,10 +22,132 @@
     left: 95px;
     top: -70px;
   }
+  .cause-box__inner {
+    width: 280px;
+  }
+  .nft-item__background {
+    padding: 20px 10px;
+  }
+  .expertise-box {
+    display: grid;
+    grid: repeat(2, auto) / 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .feedback__slider .slick-next {
+    left: calc(100% - 80px);
+  }
+  .feedback__slider .slick-prev {
+    right: calc(100% - 80px);
+  }
+  .feedback__slider .slick-arrow {
+    position: absolute;
+    z-index: 10;
+    top: calc(5%);
+  }
+}
+@media only screen and (max-width: 901px) {
+  .right-col-nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .right-col-nav__link {
+    & + & {
+      margin: 0;
+    }
+  }
+  .feedback__inner {
+    padding: 0 10px;
+  }
+  .statistic {
+    gap: 10px;
+  }
+  .nft-item {
+    & + & {
+      margin-left: 10px;
+    }
+  }
+  .statistic__box {
+    flex-basis: 30%;
+  }
+  .statistic__box-number {
+    font-size: 28px;
+  }
+  .dot-gradient-border {
+    padding: 1px;
+  }
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+  .container {
+    width: 800px;
+  }
+  .chooseus__causes {
+    display: block;
+  }
+  .cause-box__inner {
+    width: 100%;
+  }
+  .header__box-buttons-item {
+    padding: 15px;
+  }
+  .accounts__card {
+    padding: 54px 25px 25px 25px;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .container {
+    width: 100%;
+  }
+  .accounts__card {
+    padding: 24px 15px 15px 15px;
+  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .subscribe-box__input {
+    width: 254px;
+  }
+  .feedback__slider-item {
+    flex-direction: column;
+    gap: 78px;
+  }
+  .feedback-box {
+    margin: 0;
+  }
+  .feedback__img-background {
+    width: auto;
+    height: 246px;
+    flex: 0 0 auto;
+  }
+  .video {
+    width: 542px;
+    height: 272px;
+  }
+  .statistic {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .accounts__box {
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 25px;
+    & + & {
+      margin-left: 30px;
+    }
+  }
+  .accounts__card {
+    background-repeat: repeat-x;
+  }
+  .header__box-buttons-item {
+    padding: 15px 28px;
+  }
   .container {
     width: 600px;
   }
@@ -63,6 +185,29 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .explore__header-filter {
+    font-size: 0px;
+  }
+  .filter-img {
+    margin: 0;
+  }
+  .nft-item {
+    & + & {
+      margin-left: 0px;
+    }
+  }
+  .nft-box {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .dot {
+    width: 5px;
+    height: 5px;
+  }
+  .video {
+    width: 442px;
+    height: 272px;
+  }
   .container {
     width: 500px;
   }
@@ -80,10 +225,53 @@
     left: 420px;
     top: -230px;
   }
+  .section__title {
+    font-size: 32px;
+  }
   /* */
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 520px) {
+  .right-col-nav__link {
+    font-weight: bold;
+  }
+  .footer-content__left-col {
+    width: 100%;
+  }
+  .footer-content {
+    flex-direction: column-reverse;
+  }
+  .footer-content__nav {
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .subscribe-box {
+    padding: 68px 0 88px 0;
+  }
+  .footer-content__text {
+    padding: 4px;
+  }
+  .expertise-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .explore__header {
+    align-items: flex-end;
+  }
+  .explore__header-filter {
+    height: 51px;
+  }
+  .statistic {
+    padding: 50px;
+  }
+  .video {
+    width: 342px;
+    height: 172px;
+  }
   .header__box-stroke {
     left: 326px;
     top: -214px;
@@ -116,6 +304,20 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 425px) {
+  .video {
+    width: 280px;
+  }
+  .feedback__slider-item {
+    flex-direction: column;
+    gap: 98px;
+  }
+  .video-arrow {
+    left: 100px;
+  }
+  .statistic {
+    flex-direction: column;
+    gap: 40px;
+  }
   .container {
     width: 100%;
   }
@@ -172,5 +374,11 @@
   }
   .header__box-item {
     padding: 5px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .video {
+    width: 242px;
+    height: 150px;
   }
 }

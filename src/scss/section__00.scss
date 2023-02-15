@@ -42,7 +42,7 @@
 
 .chooseus__icon-container {
   position: relative;
-  left: 130px;
+  left: calc(50% - 49px);
   top: 49px;
   display: inline-block;
   background: linear-gradient(93.51deg, $violet 2.84%, #3081ed 99.18%);
@@ -57,7 +57,7 @@
 }
 
 .cause-box-border {
-  @include gradient-border()
+  @include gradient-border();
 }
 
 .cause-box__inner {

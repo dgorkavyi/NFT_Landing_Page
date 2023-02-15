@@ -16,6 +16,10 @@ $blue: #aaa;
 @import 'slider';
 @import 'adaptive';
 
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *:hover,
 *:after,
